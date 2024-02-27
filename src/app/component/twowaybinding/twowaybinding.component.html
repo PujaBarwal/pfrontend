@@ -1,0 +1,9 @@
+<p>twowaybinding works!</p>
+<!-- without using[(ngModel)] -->
+<div>
+    Enter Name<input type="text" [value]="name" [(ngModel)]="name">
+
+    <button (click)="getChange()">change name</button>
+    {{name}}
+
+</div>
